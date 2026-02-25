@@ -20,6 +20,19 @@ Edge is a highly configurable, easily extensible, fork-freindly, declarative com
 
 ---
 
+# Edge “Enables”
+
+Edge is not just a CLI for Frigate — it is a flexible, composable execution engine. Because every command module returns a typed CommandReport and routines store them in a RuntimeContext, you can:
+
+- Build daemons or automation layers that monitor system state and react dynamically.
+- Extend Edge to ne domains (containers, storage systems, microservices) without changing the core engine.
+- Chain commands for reliable, self-healing workflows.
+- Inspect execution programmatically, making it ideal for obeservability, logging, or custom notifications.
+
+Edge provides a foundation for autonoumous, type-aware orchestration, not just a wrapper around commands. The CLI is convenient, but the real power comes from what you build on top of it.
+
+---
+
 # Getting Started
 
 Before using Edge, you’ll need to install the software listed in the [Dependencies](#dependencies) section.  
