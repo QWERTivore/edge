@@ -1,0 +1,9 @@
+mount:
+  service: "frigate"
+  storage: "/mnt/frigate"
+  cache: "/mnt/frigate-cache"
+
+configuration:
+  service: "frigate"
+  filename: "docker-compose.yml"
+  directory: "/home/edgeuser/frigate"
