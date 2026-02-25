@@ -20,16 +20,16 @@ Edge is a highly configurable, easily extensible, fork-freindly, declarative com
 
 ---
 
-# Edge “Enables”
+# Edge “ENABLES”
 
 Edge is not just a CLI for Frigate — it is a flexible, composable execution engine. Because every command module returns a typed CommandReport and routines store them in a RuntimeContext, you can:
 
 - Build daemons or automation layers that monitor system state and react dynamically.
-- Extend Edge to ne domains (containers, storage systems, microservices) without changing the core engine.
+- Extend Edge to new domains (containers, storage systems, microservices) without changing the core engine.
 - Chain commands for reliable, self-healing workflows.
 - Inspect execution programmatically, making it ideal for obeservability, logging, or custom notifications.
 
-Edge provides a foundation for autonoumous, type-aware orchestration, not just a wrapper around commands. The CLI is convenient, but the real power comes from what you build on top of it.
+Edge provides a foundation for autonomous, type-aware orchestration, not just a wrapper around commands. The CLI is convenient, but the real power comes from what you build on top of it.
 
 ---
 
@@ -74,7 +74,7 @@ If you are running Frigate entirely on local storage and want to customize how r
 ## Configure Edge
 
 ```bash
-cp /your_path/pyprojects.toml /your_path/src/edge # Move pyproject.toml into the package so Poetry includes it in the wheel; Poetry only packages files inside src/edge/.
+cp /your_path/pyprojects.toml /your_path/src/edge # Copy pyproject.toml into the package so Poetry includes it in the wheel; Poetry only packages files inside src/edge/.
 poetry build # Build the wheel.
 pipx install dist/the_name_of_the_wheel.whl # Install the wheel into a pipx virtual environment.
 pipx list # Show where pipx installed the venv.
