@@ -272,7 +272,7 @@ The folder structure of Edge is designed to communicate problem domains. It is s
 # Dependencies
 
 - Debian **13.3.x**
-- Python **3.14**
+- Python **3.12**
 - Poetry **2.3.x**
 - pipx **1.7.x**
 - Frigate **0.16.x**
